@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="5"
+    android:layout_margin="5dp"
+    tools:context=".Main4Activity">
+
+    <ImageView android:src="@drawable/angry" android:layout_margin="5dp"/>
+    <ImageView android:src="@drawable/twitter" android:layout_margin="5dp"/>
+    <ImageView android:src="@drawable/whats" android:layout_margin="5dp"/>
+    <ImageView android:src="@drawable/facebook" android:layout_margin="5dp"/>
+    <ImageView android:src="@drawable/play" android:layout_margin="5dp"/>
+    <ImageView android:src="@drawable/insta" android:layout_margin="5dp"/>
+    <ImageView android:src="@drawable/linkedin" android:layout_margin="5dp"/>
+    <ImageView android:src="@drawable/pincterest" android:layout_margin="5dp"/>
+    <ImageView android:src="@drawable/sims" android:layout_margin="5dp"/>
+    <ImageView android:src="@drawable/googleplus" android:layout_margin="5dp"/>
+    <ImageView android:src="@drawable/youtube" android:layout_margin="5dp"/>
+    <ImageView android:src="@drawable/need" android:layout_margin="5dp"/>
+    <ImageView android:src="@drawable/pacman" android:layout_margin="5dp"/>
+    <ImageView android:src="@drawable/plant" android:layout_margin="5dp"/>
+    <ImageView android:src="@drawable/shadow" android:layout_margin="5dp"/>
+
+
+</GridLayout>

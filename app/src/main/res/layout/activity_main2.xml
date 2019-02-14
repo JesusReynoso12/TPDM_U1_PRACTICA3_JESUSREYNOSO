@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7A7A7A"
+    android:id="@+id/Rl"
+    tools:context=".Main2Activity">
+    <!-- El titulo de la activity lo cambie en el manifest (lo digo porque mi preview no muestra el titulo de las cosas)-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join a Norwegian Club!"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/hellotext"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hellotext"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/infotext"
+        android:text="Practice Chatting in Norwegian with other learners"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/imgboy"
+        android:src="@drawable/boy" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/king" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/policeman" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/imgboy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="120dp"
+        android:id="@+id/superheroe"
+        android:src="@drawable/superheroe"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/superheroe"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/redondeado"
+        android:layout_margin="20dp"
+        android:textColor="#ffffff"
+        android:id="@+id/findme"
+        android:text="FIND ME A CLUB"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE"
+        android:layout_below="@id/findme"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/create"
+        android:textSize="20dp"
+        android:background="@drawable/redondeado"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLUB CODE"
+        android:textSize="20dp"
+        android:layout_below="@id/findme"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/redondeado"
+        />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/create">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/shopping"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/icon1"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/shopping"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/icon1"
+                android:id="@+id/icon2"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/shopping"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/icon2"
+                android:id="@+id/icon3"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/shopping"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/icon3"
+                android:id="@+id/icon4"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/shopping"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/icon4"
+                android:id="@+id/icon5"/>
+        </RelativeLayout>
+</RelativeLayout>
